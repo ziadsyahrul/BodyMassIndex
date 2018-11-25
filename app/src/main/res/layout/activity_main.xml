@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:padding="8dp"
+android:background="@drawable/background_aplikasi">
+
+    <EditText
+            android:id="@+id/edtBeratBadan"
+            android:inputType="numberDecimal"
+            android:hint="Berat Badan (KG)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/edtTinggiBadan"
+            android:hint="Tinggi Badan (M)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btnHitung"
+            android:text="Hitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:maxLength="20"
+            android:id="@+id/txtHasil"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:text="Berat ideal kamu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
